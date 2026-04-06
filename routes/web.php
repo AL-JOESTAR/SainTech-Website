@@ -10,3 +10,11 @@ use App\Http\Controllers\HomeController;
 // });
 
 Route::get('/',[HomeController::class, 'show']);
+
+Route::get('/about', function(){
+    return view('pages.about');
+});
+
+Route::get('/services', function(){
+    return view('pages.services');
+});

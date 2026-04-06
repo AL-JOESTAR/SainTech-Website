@@ -2,6 +2,7 @@
 
 namespace App\Filament\Admin\Resources\CompanyProfiles\Schemas;
 
+use Filament\Infolists\Components\ImageEntry;
 use Filament\Infolists\Components\TextEntry;
 use Filament\Schemas\Schema;
 
@@ -18,7 +19,7 @@ class CompanyProfileInfolist
                 TextEntry::make('phone'),
                 TextEntry::make('email')
                     ->label('Email address'),
-                TextEntry::make('logo'),
+                ImageEntry::make('image'),
                 TextEntry::make('created_at')
                     ->dateTime()
                     ->placeholder('-'),

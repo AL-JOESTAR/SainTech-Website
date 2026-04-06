@@ -2,6 +2,7 @@
 
 namespace App\Filament\Admin\Resources\CompanyProfiles\Schemas;
 
+use Filament\Forms\Components\FileUpload;
 use Filament\Forms\Components\TextInput;
 use Filament\Forms\Components\Textarea;
 use Filament\Schemas\Schema;
@@ -26,7 +27,10 @@ class CompanyProfileForm
                     ->label('Email address')
                     ->email()
                     ->required(),
-                TextInput::make('logo')
+                FileUpload::make('image')
+                    ->image()
+                    ->disk('public')
+                    ->visibility('public')
                     ->required(),
             ]);
     }
