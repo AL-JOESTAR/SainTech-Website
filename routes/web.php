@@ -4,6 +4,7 @@ declare(strict_types=1);
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\AboutController;
 
 // Route::get('/', function () {
 //     return view('pages.home');
@@ -11,9 +12,7 @@ use App\Http\Controllers\HomeController;
 
 Route::get('/',[HomeController::class, 'show']);
 
-Route::get('/about', function(){
-    return view('pages.about');
-});
+Route::get('/about',[AboutController::class, 'show']);
 
 Route::get('/services', function(){
     return view('pages.services');

@@ -1,10 +1,6 @@
 @extends('layouts.app')
 
 @section('konten')
-@php
-  use App\Models\CompanyProfile;
-  $config = CompanyProfile::first();
-@endphp
 
 <div class="container mt-5">
     <div class="card shadow-lg border-0 rounded-4">
@@ -14,7 +10,7 @@
                 <img 
                     loading="lazy" 
                     decoding="async"
-                    src="{{ asset('storage/' . $config->image) }}" 
+                    src="{{ asset('storage/' . $data->image) }}" 
                     class="img-fluid rounded-4 shadow-lg mb-3" 
                     style="max-height: 300px; object-fit: cover;"
                     alt="Company Image"
@@ -26,7 +22,7 @@
             <div class="col-md-7">
                 <div class="card-body p-4">
                     <h3 class="card-title mb-3 text-primary fw-bold">{{ $data->name }}</h3>
-                    <p class="text-muted mb-4">{{ $data->description }}</p>
+                    <p class="mb-4">{{ $data->description }}</p>
                     
                     <hr>
 

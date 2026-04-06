@@ -19,6 +19,7 @@
           <a class="nav-link disabled" aria-disabled="true">Disabled</a>
         </li>
       </ul>
+      <a href="/admin" type="button" class="btn btn-primary ms-auto">admin</a>  
     </div>
   </div>
 </nav>

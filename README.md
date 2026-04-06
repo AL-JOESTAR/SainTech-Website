@@ -5,5 +5,5 @@ Project ini merupakan website Company Profile yang dibuat sebagai sarana belajar
 Dengan adanya sistem admin panel, proses pengelolaan dan update isi website menjadi lebih mudah, cepat, dan efisien.
 
 ### Package
-Laravel sail
-Filament
+* Laravel sail
+* Filament
