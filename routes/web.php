@@ -17,3 +17,8 @@ Route::get('/about',[AboutController::class, 'show']);
 Route::get('/services', function(){
     return view('pages.services');
 });
+
+Route::get('/contact', function(){
+    return view('pages.contact');
+});
+
