@@ -110,7 +110,8 @@
 
         <!-- FORM -->
         <div class="col-md-7">
-            <form method="POST" action="#">
+            <form method="POST" action="/contact">
+                @csrf
                 <div class="mb-3">
                     <label for="name" class="form-label">Nama</label>
                     <input type="text" class="form-control" id="name" name="name" placeholder="Masukkan nama Anda" required>

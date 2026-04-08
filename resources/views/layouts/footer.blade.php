@@ -73,10 +73,10 @@
                 <!-- MENU -->
                 <div class="col-md-4 mb-4">
                     <h6 class="fw-bold mb-3">Menu</h6>
-                    <a href="#" class="footer-link">Home</a>
-                    <a href="#" class="footer-link">About</a>
-                    <a href="#" class="footer-link">Services</a>
-                    <a href="#" class="footer-link">Contact</a>
+                    <a href="/" class="footer-link">Home</a>
+                    <a href="/about" class="footer-link">About</a>
+                    <a href="/services" class="footer-link">Services</a>
+                    <a href="/contact" class="footer-link">Contact</a>
                 </div>
 
                 <!-- CTA -->
