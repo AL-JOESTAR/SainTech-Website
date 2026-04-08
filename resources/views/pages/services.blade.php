@@ -190,7 +190,9 @@
     <div class="cta">
         <h4>Siap Mengembangkan Bisnis Anda?</h4>
         <p>Konsultasi GRATIS sekarang dan temukan solusi terbaik!</p>
+        <a href="/contact">
         <button class="btn-cta">Hubungi Kami</button>
+        </a>
     </div>
 
 </div>  

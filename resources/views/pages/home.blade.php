@@ -234,6 +234,41 @@
     </div>
 </div>
 
+<!-- TESTIMONIALS -->
+<div class="container py-5">
+    <h2 class="text-center mb-5" style="color:#4facfe; font-weight:700;">What Our Users Say</h2>
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="glass p-4 text-center">
+                <img src="https://i.pravatar.cc/100?img=32" class="rounded-circle mb-3" alt="User 1">
+                <h5 style="color:#00f5ff; font-weight:600;">Alice Johnson</h5>
+                <p style="font-size:0.9rem; color:#ccc;">CEO, TechCorp</p>
+                <p style="font-style:italic;">"The platform transformed our workflow. Super intuitive and reliable!"</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="glass p-4 text-center">
+                <img src="https://i.pravatar.cc/100?img=47" class="rounded-circle mb-3" alt="User 2">
+                <h5 style="color:#00f5ff; font-weight:600;">Mark Thompson</h5>
+                <p style="font-size:0.9rem; color:#ccc;">Product Manager, InnovateX</p>
+                <p style="font-style:italic;">"Absolutely love the modern UI and how smooth everything feels!"</p>
+            </div>
+        </div>
+
+        <div class="col-md-4">
+            <div class="glass p-4 text-center">
+                <img src="https://i.pravatar.cc/100?img=12" class="rounded-circle mb-3" alt="User 3">
+                <h5 style="color:#00f5ff; font-weight:600;">Sophia Lee</h5>
+                <p style="font-size:0.9rem; color:#ccc;">Designer, StartUpHub</p>
+                <p style="font-style:italic;">"The best experience I’ve had with a SaaS tool. Clean, fast, and gorgeous design."</p>
+            </div>
+        </div>
+
+    </div>
+</div>
+
 <!-- FOOTER CTA -->
 <div class="footer-cta">
     <h3>Ready to Grow Your Startup?</h3>
